@@ -12,6 +12,7 @@
 body{
     background-color: var(--bg-color);
     color: var(--text-color);
+    height: 100%;
 }
 a { 
     text-decoration: none;
@@ -28,9 +29,27 @@ header{
     padding: 20px;
     position: sticky;
     top: 0;
+   
 }
 header a{
     color: var(--bg-color);
+}
+#hero{
+    padding: 40px;
+    background-color: aqua;
+    /* width: 50vw; */
+    /* altura que ocupa el header - 58px */
+    height: calc(100vh - 58px);
+}
+p{
+    margin-bottom: 3rem;
+}
+h1{
+    /* CUIDADO CON ESTO PARA EL RESPONSIVE */
+    font-size: 8vw;
+}
+h2{
+    font-size: 3rem;
 }
 main{
     padding: 40px;
